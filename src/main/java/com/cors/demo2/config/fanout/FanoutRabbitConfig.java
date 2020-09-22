@@ -1,4 +1,4 @@
-package com.cors.demo2.config;
+package com.cors.demo2.config.fanout;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

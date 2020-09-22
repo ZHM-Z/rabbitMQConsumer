@@ -1,4 +1,4 @@
-package com.cors.demo2.config;
+package com.cors.demo2.config.direct;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -7,6 +7,9 @@ import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 消息消费者可以不写config,写了config消费者也可以作为生产者
+ */
 @Configuration
 @Deprecated
 public class DirectRabbitConfig {

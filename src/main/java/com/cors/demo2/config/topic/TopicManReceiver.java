@@ -1,4 +1,4 @@
-package com.cors.demo2.config;
+package com.cors.demo2.config.topic;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
